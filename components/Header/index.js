@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default () => (
   <header>
     <style jsx>{`
@@ -9,6 +11,8 @@ export default () => (
         height: 30px;
       }
     `}</style>
-    I am a header
+    <Link href="/">
+      <a>Home</a>
+    </Link>
   </header>
 );
