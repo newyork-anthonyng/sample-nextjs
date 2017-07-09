@@ -6,7 +6,7 @@ type Props = {
 };
 
 export default ({ children }: Props) => (
-  <Headspace scrollTolerance={10}>
+  <Headspace scrollTolerance={10} showAtBottom={false}>
     <header>
       <style jsx>{`
         header {
@@ -15,6 +15,7 @@ export default ({ children }: Props) => (
           color: white;
           display: flex;
           height: 30px;
+          z-index: 100;
         }
       `}</style>
       {children}

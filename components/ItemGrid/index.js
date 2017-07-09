@@ -12,6 +12,7 @@ const ItemGrid = (props: Props) => (
       div {
         display: flex;
         flex-wrap: wrap;
+        position: relative;
       }
     `}</style>
   </div>

@@ -16,6 +16,7 @@ const Layout = (props: Props) => (
       body {
         font-family: Helvetica, sans-serif;
         margin: 0;
+        position: relative;
       }
     `}</style>
     {props.header}
