@@ -1,14 +1,24 @@
-import Header from '../Header';
+// @flow
+import Head from 'next/head';
 
-const Layout = (props) => (
+type Props = {
+  header: React$Element<any>,
+  children: React$Element<any>,
+}
+
+const Layout = (props: Props) => (
   <div>
+    <Head>
+      <title>Clone</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <style jsx global>{`
       body {
         font-family: Helvetica, sans-serif;
         margin: 0;
       }
     `}</style>
-    <Header />
+    {props.header}
     {props.children}
   </div>
 );
