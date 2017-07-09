@@ -7,7 +7,8 @@
     "next": "^3.0.1-beta.8",
     "nps": "^5.3.2",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-headspace": "0.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
