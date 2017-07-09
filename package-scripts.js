@@ -2,7 +2,7 @@ module.exports = {
   scripts: {
     default: 'next start',
     build: 'next build',
-    dev: 'next dev',
+    dev: 'node server.js',
     flow: {
       script: 'flow',
       description: 'Use flow type-checking',

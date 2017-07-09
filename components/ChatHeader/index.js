@@ -16,8 +16,12 @@ export default () => (
       <span className="min">Chatting with Name</span>
 
       <div>
-        <h3 className="min">Profile</h3>
-        <h3 className="max">My Profile</h3>
+        <Link as="/me" href="/profile">
+          <h3 className="min">Profile</h3>
+        </Link>
+        <Link as="/me" href="/profile">
+          <h3 className="max">My Profile</h3>
+        </Link>
       </div>
     </div>
     <style jsx>{`

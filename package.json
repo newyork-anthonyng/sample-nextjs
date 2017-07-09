@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.15.3",
     "lodash.throttle": "^4.1.1",
     "next": "^3.0.1-beta.8",
     "nps": "^5.3.2",
